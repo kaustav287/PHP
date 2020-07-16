@@ -30,3 +30,5 @@ if(!$res)
 }
 else echo "modification successfull";
 
+mysqli_close($temp);
+?>
